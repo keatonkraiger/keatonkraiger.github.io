@@ -3,7 +3,7 @@
 body, html{
     height: 100%;
     margin: 0;
-    font-family: 'helvetica', Arial, sans-serif;
+    font-family: 'europa', Arial, sans-serif;
 }
 
 .bg {
@@ -24,6 +24,7 @@ body, html{
     height: 50%;
     color: white;
 }
+
 
 div.head h1 { 
     padding: 1em;
