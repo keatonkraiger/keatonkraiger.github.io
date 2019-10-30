@@ -1,0 +1,37 @@
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'helvetica', Arial, sans-serif;
+}
+
+.bg {
+    background-image: url('images/daniel-leone-v7daTKlZzaw-unsplash.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    color: white;
+}
+
+div.head h1 { 
+    padding: 1em;
+    margin: 0;
+}
+
+div.head .head2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: large;
+}
