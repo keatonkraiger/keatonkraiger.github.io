@@ -7,6 +7,14 @@ body,html {
 }
 
 
+.bg {
+    background-image: url('/images/patrick-fore-vpAKO21abME-unsplash.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 div.header {
     width: 100%;
@@ -39,8 +47,6 @@ div.header img.face-pic {
 div.header .info {
     text-align: left;
     width: 35em;
-    /*background-color: rgba(255, 255, 255, 0.6);*/
-    background-color: pink;
     margin-top: 20px;
     padding: 20px;
 }
