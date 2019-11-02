@@ -6,21 +6,10 @@ body,html {
     width: 100%;
 }
 
-
-.bg {
-    background-image: url('/images/patrick-fore-vpAKO21abME-unsplash.jpg');
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-div.header {
+.text {
     width: 100%;
     background-color: white;
-/*    background-image: url('./images/gratisography-mountain-cloud-landscape.jpg');
-    background-size: cover; */
+    background-size: cover; 
     background-position: center;
     display: flex;
     flex-flow: column;
@@ -28,6 +17,7 @@ div.header {
     justify-content: middle;
     text-align: center;
     height: 100%;
+    margin-right: 190px;
 }
 
 .wrapper{
@@ -35,6 +25,17 @@ div.header {
     width: 100%;
 }
 
+div.header{
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: middle;
+    text-align: center;
+    height: 600px;
+}
 div.header h1 { 
     padding: 1em;
     margin: 0;
@@ -54,3 +55,51 @@ div.header .info {
 div.header .info img {
     padding: 20px;
 }
+
+  p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+  }
+  
+  .word {
+    position: absolute;
+    width: 600px;
+    opacity: 0;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+  }
+  
+  .letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .letter.behind {
+    transform: rotateX(-90deg);
+  }
+  
+  .letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .pink {
+    color: #A14DA0;
+  }
+  
+  .purple {
+    color: #9D79BC;
+  }
+  
+  .blue {
+    color: #8CA0D7;
+  }
