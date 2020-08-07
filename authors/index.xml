@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Keaton Kraiger</title>
+    <link>https://keatonkraiger.github.io/authors/</link>
+      <atom:link href="https://keatonkraiger.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://keatonkraiger.github.io/images/icon_hu97b623b8843c82bf09b35f130713c62f_19630_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://keatonkraiger.github.io/authors/</link>
+    </image>
+    
+  </channel>
+</rss>
