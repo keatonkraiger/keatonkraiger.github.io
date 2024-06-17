@@ -1,0 +1,102 @@
+body {
+    padding-top: 20px;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+h2 {
+    color: black; 
+    margin-bottom: 0;
+}
+.profile-bio {
+    flex: 1;
+}
+.text-muted {
+    color: #6c757d !important; /* This is a Bootstrap class override */
+}
+
+/* Socials/icons */
+.social-icons a {
+    color: #000;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+.contact-icons {
+    padding: 10px 0;
+}
+.contact-icons a {
+    color: #000; /* Adjust icon color as needed */
+    margin-right: 10px;
+    text-decoration: none;
+}
+.contact-icons a:hover {
+    color: #555; /* Adjust icon hover color as needed */
+}
+
+/* Profile image, bio, name */
+.profile-image img {
+    max-width: 200px; 
+    border-radius: 50%; /* Make profile pic round/square */
+}
+.academic-title {
+    font-size: 1.0em; 
+    color: #555; 
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.name {
+    font-size: 1.25em; 
+    color: #000; 
+    font-weight: bold;
+}
+.highlight {
+    color: #0056b3; /* Style of your name */
+    font-weight: bold;
+}
+
+/* Publications */
+@media (min-width: 768px) {
+    .profile-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .profile-bio {
+        flex: 1;
+    }
+}
+.publication-container {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.publication-title {
+    margin: 0;
+    font-size: 1.25rem;
+}
+.publication-links a {
+    margin-right: 15px;
+    color: #007bff; /* Bootstrap primary color for links */
+}
+.publication-links a:hover {
+    text-decoration: underline;
+}
+.venue {
+    margin-top: 0.0rem; 
+    padding-top: 0; /* Override any inherited padding */
+    font-size: 1.1rem;
+    color: #6c757d; 
+}
+.authors {
+    margin-bottom: 0.0rem; 
+    padding-bottom: 0;
+}
