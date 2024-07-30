@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Keaton Kraiger</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-0I4tnDyFwGU6re8yLlDaWS58k9v5JTRxOVoI15PpXN7RzXR8SD1eZ5wv0VEV0P2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css?v=1.0">
+    <link rel="stylesheet" href="style.css?v=1.1">
     <link rel="manifest" href="site.webmanifest">
 </head>
 
@@ -58,7 +61,7 @@
                 <h2>News</h2>
                 <div id="news">
                     <ul>
-                        <li><strong>04/24:</strong> the NYC Vision Day with two posters</li>
+                        <li><strong>04/24:</strong> Attended the NYC Vision Day with two posters</li>
                         <li><strong>02/24:</strong> Hosted a booth at the Pittsburgh Robotics Day</li>
                         <li><strong>10/23:</strong> Dr. Collins of LPAC was awarded NSF grant!</li>
                     </ul>
@@ -143,9 +146,14 @@
 
     </div>
 
-<p class="text-center mt-5">Feel free to use this template <a href="http://vision.cse.psu.edu/publications/publications.shtml">here</a>!</p>
+<p class="text-center mt-5">Feel free to use this site's template <a href="http://vision.cse.psu.edu/publications/publications.shtml">here</a>!</p>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+    }
+</script>
 </body>
 </html>
